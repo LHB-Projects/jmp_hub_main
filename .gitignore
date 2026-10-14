@@ -1,3 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# App runtime data (cache files — never commit credentials or cached data)
+data/
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
